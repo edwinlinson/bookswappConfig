@@ -6,7 +6,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/secondproject
     username: postgres
     password: password
-    driver-class-name: org.postgresql.Driver
+    driver-class-name: 
   jpa:
     hibernate:
       ddl-auto: update
@@ -24,7 +24,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: bookswapproject@gmail.com
-    password: nuxsamoaezknozlq
+    password: 
     properties:
       mail:
         smtp:
