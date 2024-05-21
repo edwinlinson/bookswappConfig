@@ -5,7 +5,7 @@ spring:
     name: db
     url: jdbc:postgresql://localhost:5432/secondproject
     username: postgres
-    password: ${dbPass}
+    password: password
     driver-class-name: 
   jpa:
     hibernate:
