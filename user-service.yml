@@ -4,7 +4,7 @@ spring:
   datasource:
     name: db
     url: jdbc:postgresql://localhost:5432/secondproject
-    username: ${dbUser}
+    username: postgres
     password: ${dbPass}
     driver-class-name: 
   jpa:
